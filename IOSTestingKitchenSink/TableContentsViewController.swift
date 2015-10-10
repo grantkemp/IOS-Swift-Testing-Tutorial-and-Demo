@@ -12,11 +12,13 @@ class ViewController: UIViewController, UITableViewDelegate {
 
     @IBOutlet var out_tbl_view: UITableView!
     
-    let lessonsToShow = LessonsConstants.sharedInstance().lesson
+    var lessonsToShow:[String:[String:String]]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    getLessonsFromPlist()
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,15 +38,38 @@ class ViewController: UIViewController, UITableViewDelegate {
     }
     
      func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return lessonsToShow.count
+        return lessonsToShow!.count
     }
     
     
      func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell!
+       let lessonNumber = "Lesson\(indexPath.row)"
+        let lessonDetails = lessonsToShow![lessonNumber]
+        let title = lessonDetails!["Title"]
+        let description = lessonDetails!["Description"]
         
-        cell.textLabel?.text = lessonsToShow[indexPath.row]
+        let cell = tableView.dequeueReusableCellWithIdentifier("cell") as UITableViewCell!
+        cell.textLabel?.text = title
+        cell.detailTextLabel!.text = description
         return cell
+    }
+    
+        /**
+            Get Resource From Plist
+
+            :return: Dictionary
+       */
+    
+    func getLessonsFromPlist() {
+        guard let path = NSBundle.mainBundle().pathForResource("LessonList", ofType: "plist") else {
+            print("no such plist")
+          
+            return
+        }
+         let sections = NSDictionary(contentsOfFile: path)
+        lessonsToShow = (sections!.valueForKey("GettingStarted")) as! [String:[String:String]]
+        
+        print("got it")
     }
 
 }

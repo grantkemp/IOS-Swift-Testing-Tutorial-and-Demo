@@ -8,18 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C961BC81EAC0085597C /* IsPrime.swift */; settings = {ASSET_TAGS = (); }; };
-		A1457C991BC81FB20085597C /* TextValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C981BC81FB20085597C /* TextValidation.swift */; settings = {ASSET_TAGS = (); }; };
-		A1457C9B1BC820780085597C /* Lesson4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9A1BC820780085597C /* Lesson4ViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		A1457C9F1BC8263B0085597C /* SimpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9E1BC8263B0085597C /* SimpleModel.swift */; settings = {ASSET_TAGS = (); }; };
 		A1457CA11BC82E530085597C /* SimpleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457CA01BC82E530085597C /* SimpleModelTests.swift */; settings = {ASSET_TAGS = (); }; };
+		A14EB9281BC9B46000117FD8 /* LessonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14EB9271BC9B46000117FD8 /* LessonList.plist */; settings = {ASSET_TAGS = (); }; };
 		A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9471B9E3F2300017C92 /* AppDelegate.swift */; };
 		A14FE94A1B9E3F2300017C92 /* TableContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */; };
 		A14FE94D1B9E3F2300017C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94B1B9E3F2300017C92 /* Main.storyboard */; };
 		A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94E1B9E3F2300017C92 /* Images.xcassets */; };
 		A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */; };
-		A14FE95E1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */; };
 		A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */; };
-		A14FE96B1B9E475F00017C92 /* Lesson0ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +31,9 @@
 
 /* Begin PBXFileReference section */
 		A1457C961BC81EAC0085597C /* IsPrime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsPrime.swift; sourceTree = "<group>"; };
-		A1457C981BC81FB20085597C /* TextValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TextValidation.swift; path = ../TextValidation.swift; sourceTree = "<group>"; };
-		A1457C9A1BC820780085597C /* Lesson4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson4ViewController.swift; sourceTree = "<group>"; };
 		A1457C9E1BC8263B0085597C /* SimpleModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleModel.swift; sourceTree = "<group>"; };
 		A1457CA01BC82E530085597C /* SimpleModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleModelTests.swift; sourceTree = "<group>"; };
+		A14EB9271BC9B46000117FD8 /* LessonList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = LessonList.plist; sourceTree = "<group>"; };
 		A14FE9421B9E3F2300017C92 /* IOSTestingKitchenSink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSTestingKitchenSink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FE9461B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14FE9471B9E3F2300017C92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,9 +43,7 @@
 		A14FE9511B9E3F2300017C92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		A14FE9571B9E3F2300017C92 /* IOSTestingKitchenSinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTestingKitchenSinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FE95C1B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSTestingKitchenSinkTests.swift; sourceTree = "<group>"; };
 		A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsConstants.swift; sourceTree = "<group>"; };
-		A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lesson0ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,9 +64,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A14EB9261BC9B42700117FD8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A14FE94B1B9E3F2300017C92 /* Main.storyboard */,
+				A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */,
+				A14FE94E1B9E3F2300017C92 /* Images.xcassets */,
+				A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A14EB9291BC9B89500117FD8 /* Lesson0: HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Lesson0: HelloWorld";
+			sourceTree = "<group>";
+		};
+		A14EB92A1BC9B8A400117FD8 /* Lesson1: Simple Function */ = {
+			isa = PBXGroup;
+			children = (
+				A1457C9E1BC8263B0085597C /* SimpleModel.swift */,
+			);
+			name = "Lesson1: Simple Function";
+			sourceTree = "<group>";
+		};
+		A14EB92B1BC9B8D100117FD8 /* Getting Started */ = {
+			isa = PBXGroup;
+			children = (
+				A14EB92C1BC9B8DB00117FD8 /* Lesson0 */,
+				A14EB92D1BC9B8E400117FD8 /* Lesson1 */,
+			);
+			name = "Getting Started";
+			sourceTree = "<group>";
+		};
+		A14EB92C1BC9B8DB00117FD8 /* Lesson0 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lesson0;
+			sourceTree = "<group>";
+		};
+		A14EB92D1BC9B8E400117FD8 /* Lesson1 */ = {
+			isa = PBXGroup;
+			children = (
+				A1457CA01BC82E530085597C /* SimpleModelTests.swift */,
+			);
+			name = Lesson1;
+			sourceTree = "<group>";
+		};
 		A14FE9391B9E3F2300017C92 = {
 			isa = PBXGroup;
 			children = (
+				A14EB9271BC9B46000117FD8 /* LessonList.plist */,
 				A14FE9441B9E3F2300017C92 /* IOSTestingKitchenSink */,
 				A14FE95A1B9E3F2300017C92 /* IOSTestingKitchenSinkTests */,
 				A14FE9431B9E3F2300017C92 /* Products */,
@@ -91,14 +136,9 @@
 		A14FE9441B9E3F2300017C92 /* IOSTestingKitchenSink */ = {
 			isa = PBXGroup;
 			children = (
-				A14FE9691B9E473800017C92 /* Lessons */,
+				A14EB9261BC9B42700117FD8 /* Common */,
+				A14FE9691B9E473800017C92 /* GettingStarted */,
 				A14FE9471B9E3F2300017C92 /* AppDelegate.swift */,
-				A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */,
-				A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */,
-				A14FE94B1B9E3F2300017C92 /* Main.storyboard */,
-				A1457C981BC81FB20085597C /* TextValidation.swift */,
-				A1457C9E1BC8263B0085597C /* SimpleModel.swift */,
-				A14FE94E1B9E3F2300017C92 /* Images.xcassets */,
 				A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */,
 				A14FE9451B9E3F2300017C92 /* Supporting Files */,
 				A1457C961BC81EAC0085597C /* IsPrime.swift */,
@@ -117,8 +157,7 @@
 		A14FE95A1B9E3F2300017C92 /* IOSTestingKitchenSinkTests */ = {
 			isa = PBXGroup;
 			children = (
-				A1457CA01BC82E530085597C /* SimpleModelTests.swift */,
-				A14FE95D1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift */,
+				A14EB92B1BC9B8D100117FD8 /* Getting Started */,
 				A14FE95B1B9E3F2300017C92 /* Supporting Files */,
 			);
 			path = IOSTestingKitchenSinkTests;
@@ -132,13 +171,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A14FE9691B9E473800017C92 /* Lessons */ = {
+		A14FE9691B9E473800017C92 /* GettingStarted */ = {
 			isa = PBXGroup;
 			children = (
-				A14FE96A1B9E475F00017C92 /* Lesson0ViewController.swift */,
-				A1457C9A1BC820780085597C /* Lesson4ViewController.swift */,
+				A14EB9291BC9B89500117FD8 /* Lesson0: HelloWorld */,
+				A14EB92A1BC9B8A400117FD8 /* Lesson1: Simple Function */,
 			);
-			name = Lessons;
+			name = GettingStarted;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -226,6 +265,7 @@
 				A14FE94D1B9E3F2300017C92 /* Main.storyboard in Resources */,
 				A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */,
 				A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */,
+				A14EB9281BC9B46000117FD8 /* LessonList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,10 +285,7 @@
 			files = (
 				A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */,
 				A1457C9F1BC8263B0085597C /* SimpleModel.swift in Sources */,
-				A1457C9B1BC820780085597C /* Lesson4ViewController.swift in Sources */,
 				A14FE94A1B9E3F2300017C92 /* TableContentsViewController.swift in Sources */,
-				A14FE96B1B9E475F00017C92 /* Lesson0ViewController.swift in Sources */,
-				A1457C991BC81FB20085597C /* TextValidation.swift in Sources */,
 				A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */,
 				A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */,
 			);
@@ -258,7 +295,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A14FE95E1B9E3F2300017C92 /* IOSTestingKitchenSinkTests.swift in Sources */,
 				A1457CA11BC82E530085597C /* SimpleModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

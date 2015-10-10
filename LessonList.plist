@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GettingStarted</key>
+	<dict>
+		<key>Lesson0</key>
+		<dict>
+			<key>Title</key>
+			<string>Hello World</string>
+			<key>Description</key>
+			<string>The basics for how to do your first test</string>
+			<key>Explanation</key>
+			<string>Todo</string>
+		</dict>
+		<key>Lesson1</key>
+		<dict>
+			<key>Title</key>
+			<string>Simple Function</string>
+			<key>Description</key>
+			<string>The first Functional test</string>
+		</dict>
+	</dict>
+	<key>Beginners</key>
+	<dict>
+		<key>Lesson0</key>
+		<dict>
+			<key>Title</key>
+			<string>String Calculator</string>
+			<key>Description</key>
+			<string>add description</string>
+		</dict>
+		<key>Lesson1</key>
+		<dict>
+			<key>Title</key>
+			<string>isPrime</string>
+			<key>Description</key>
+			<string>Todo</string>
+		</dict>
+	</dict>
+	<key>Intermediate</key>
+	<dict>
+		<key>Lesson0</key>
+		<dict>
+			<key>Title</key>
+			<string>Todo</string>
+			<key>Description</key>
+			<string>todo</string>
+		</dict>
+		<key>Lesson1</key>
+		<dict>
+			<key>Title</key>
+			<string>Todo</string>
+			<key>Description</key>
+			<string>Todo</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
