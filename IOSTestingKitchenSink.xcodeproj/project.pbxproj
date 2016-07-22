@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C961BC81EAC0085597C /* IsPrime.swift */; settings = {ASSET_TAGS = (); }; };
-		A1457C9F1BC8263B0085597C /* SimpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9E1BC8263B0085597C /* SimpleModel.swift */; settings = {ASSET_TAGS = (); }; };
-		A1457CA11BC82E530085597C /* SimpleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457CA01BC82E530085597C /* SimpleModelTests.swift */; settings = {ASSET_TAGS = (); }; };
-		A14EB9281BC9B46000117FD8 /* LessonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14EB9271BC9B46000117FD8 /* LessonList.plist */; settings = {ASSET_TAGS = (); }; };
+		A1457C971BC81EAC0085597C /* IsPrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C961BC81EAC0085597C /* IsPrime.swift */; };
+		A1457C9F1BC8263B0085597C /* SimpleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457C9E1BC8263B0085597C /* SimpleModel.swift */; };
+		A1457CA11BC82E530085597C /* SimpleModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1457CA01BC82E530085597C /* SimpleModelTests.swift */; };
+		A14EB9281BC9B46000117FD8 /* LessonList.plist in Resources */ = {isa = PBXBuildFile; fileRef = A14EB9271BC9B46000117FD8 /* LessonList.plist */; };
 		A14FE9481B9E3F2300017C92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9471B9E3F2300017C92 /* AppDelegate.swift */; };
 		A14FE94A1B9E3F2300017C92 /* TableContentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9491B9E3F2300017C92 /* TableContentsViewController.swift */; };
 		A14FE94D1B9E3F2300017C92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94B1B9E3F2300017C92 /* Main.storyboard */; };
 		A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A14FE94E1B9E3F2300017C92 /* Images.xcassets */; };
 		A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */; };
 		A14FE9681B9E3F8100017C92 /* LessonsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */; };
+		A1C91B3A1BCA9E0A003D1E44 /* Possible Sources for Testing Course.rtf in Resources */ = {isa = PBXBuildFile; fileRef = A1C91B391BCA9E0A003D1E44 /* Possible Sources for Testing Course.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A14FE9571B9E3F2300017C92 /* IOSTestingKitchenSinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSTestingKitchenSinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14FE95C1B9E3F2300017C92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessonsConstants.swift; sourceTree = "<group>"; };
+		A1C91B391BCA9E0A003D1E44 /* Possible Sources for Testing Course.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = "Possible Sources for Testing Course.rtf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		A14FE9391B9E3F2300017C92 = {
 			isa = PBXGroup;
 			children = (
+				A1C91B391BCA9E0A003D1E44 /* Possible Sources for Testing Course.rtf */,
 				A14EB9271BC9B46000117FD8 /* LessonList.plist */,
 				A14FE9441B9E3F2300017C92 /* IOSTestingKitchenSink */,
 				A14FE95A1B9E3F2300017C92 /* IOSTestingKitchenSinkTests */,
@@ -226,7 +229,7 @@
 			attributes = {
 				LastSwiftMigration = 0700;
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Grant Kemp";
 				TargetAttributes = {
 					A14FE9411B9E3F2300017C92 = {
@@ -264,6 +267,7 @@
 			files = (
 				A14FE94D1B9E3F2300017C92 /* Main.storyboard in Resources */,
 				A14FE9521B9E3F2300017C92 /* LaunchScreen.xib in Resources */,
+				A1C91B3A1BCA9E0A003D1E44 /* Possible Sources for Testing Course.rtf in Resources */,
 				A14FE94F1B9E3F2300017C92 /* Images.xcassets in Resources */,
 				A14EB9281BC9B46000117FD8 /* LessonList.plist in Resources */,
 			);
@@ -350,6 +354,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -419,6 +424,7 @@
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = IOSTestingKitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grant.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -430,6 +436,7 @@
 				ENABLE_TESTABILITY = YES;
 				INFOPLIST_FILE = IOSTestingKitchenSink/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grant.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -448,6 +455,7 @@
 				);
 				INFOPLIST_FILE = IOSTestingKitchenSinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grant.IOSTesting.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSTestingKitchenSink.app/IOSTestingKitchenSink";
 			};
@@ -463,6 +471,7 @@
 				);
 				INFOPLIST_FILE = IOSTestingKitchenSinkTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.grant.IOSTesting.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOSTestingKitchenSink.app/IOSTestingKitchenSink";
 			};

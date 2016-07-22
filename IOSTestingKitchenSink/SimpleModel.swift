@@ -11,7 +11,12 @@ import Foundation
 class SimpleModel {
     
     //Based on this Awesome Tutorial : http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/
+    func simpleStringLenth(stringToTest:String) -> Int {
+        
+        let stringLength = stringToTest.characters.count
+        return stringLength
+    }
     func simpleFunc() -> Bool {
         return true
     }
-}
+    }
