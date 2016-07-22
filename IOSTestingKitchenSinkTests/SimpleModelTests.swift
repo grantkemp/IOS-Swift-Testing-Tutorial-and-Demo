@@ -16,7 +16,6 @@ class SimpleModelTests: XCTestCase {
         let mySimpleModel  = SimpleModel()
         XCTAssert(mySimpleModel.simpleFunc() == true)
     }
- //Now Press the black squares next to your test to run
     
     func testSimpleStringLength() {
         
