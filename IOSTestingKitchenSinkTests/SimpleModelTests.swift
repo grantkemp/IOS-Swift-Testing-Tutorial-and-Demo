@@ -6,26 +6,56 @@
 //  Copyright © 2015 Grant Kemp. All rights reserved.
 //
 
+// Step 0: Before you start make sure your test file has imported XCTest and has imported the project files so it has access.
 import XCTest
-@testable import IOSTestingKitchenSink // use the Main Project Folder
+
+@testable import IOSTestingKitchenSink // use the Main Project Folder name
 class SimpleModelTests: XCTestCase {
     
-    //FROM This awesome Tutorial: http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/
+    //Start from This awesome Tutorial: http://natashatherobot.com/swift-2-xcode-7-unit-testing-access/
+    // The Best way to write these tests  is using the Split Pane view with your test model on the left and the class you are testing on the right pane
     
-    func testSimpleFunc() {
-        let mySimpleModel  = SimpleModel()
-        XCTAssert(mySimpleModel.simpleFunc() == true)
+    //I like to preface the method I am testing with "test" so its easy to see whats being tested
+    
+    // Step 1: Add the class you are testing as a global variable so that it can be created new in the "Setup Method" and set to nil in the tearDown Method. We call the class "sut" which stands for "Subject Under Test". Use the same variable name for all tests so you don't have to remember what you called your test class and it can be consistent.
+    
+    var sut: SimpleModel! // Use exclamation as the sut variable will always exists when its being used. 
+    
+    // Step 2: Create your initialiser for your class when the test starts.
+    override func setUp() {
+        sut = SimpleModel()
     }
+    // Step 3: Unset your global variable so you are testing from fresh with each test. 
     
+    override func tearDown() {
+        sut = nil
+    }
+    //TESTING A BOOL
+    //Step 4: Start your firts test for the first method in SimpleModel.swift.
+    func testSimpleFunctoReturnTrue() {
+        
+        //We expect that this function should always return true.  We can write the test this way.
+        //Step 5: press the diamond on the left to run the test.
+        
+        XCTAssert(sut.simpleFunctoReturnTrue() == true) // This will pass if the Simple Model file hasn't changed
+        
+       // XCTAssert(sut.simpleFunctoReturnTrue() == false) // This will fail but I don't like failing tests so I have commented it out.
+        
+
+    }
+    //TESTING AN INTEGER AND MOCKING
     func testSimpleStringLength() {
+        // STEP 6: Lets try testing Integers. The "SimpleStringLength" Method should return the lengtht of the String that we give it. To make sure it works correctly we are going to "Mock up" a test string which we can use to validate. 
+        let stringToTest = "LoveTesting"
         
-        let mySimpleModel  = SimpleModel()
+        //STEP 7: 
+        XCTAssert(sut.simpleStringLenth(stringToTest) == 11)
         
-        let targetLength = 10
+        //We can also write this test like this: 
+        XCTAssertEqual(sut.simpleStringLenth(stringToTest), 11)
         
-        let randomString =  randomAlphaNumericString(targetLength)
+        
     
-        XCTAssert(mySimpleModel.simpleStringLenth(randomString) == 10)
         
     }
     
