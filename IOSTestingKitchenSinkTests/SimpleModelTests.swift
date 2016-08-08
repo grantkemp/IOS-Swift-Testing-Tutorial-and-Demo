@@ -75,6 +75,23 @@ class SimpleModelTests: XCTestCase {
        print("Test run \(testRuns) times")
     
     }
+    
+    //TEST DRIVEN DEVELOPMENT
+    //TESTING A STRING OUTPUT MATCHES WHAT IS EXPECTED
+    // I expect that the function I built called sayHelloWorld() will return a string "Hello World".  Before I write my method I start by writing my test about what I expect. Since I haven't written the method yet, I should only write enough to make the the project compile so I go over to my simple Model class and create a blank HelloWorld function.
+    
+    //eg: func sayHellowWorld()-> String {return String() }
+    
+    //I should then have a failing test as the function doesn't return Hello World which is what I expected it to return. So I go off and update the method to then return Hello World
+    //eg: func sayHellowWorld()-> String {return "Hello World" }
+    
+    // I then have  passing test when I run tests using CMD+ U or run Product -> Test
+    
+    func testHelloWorld() {
+        let helloworld:String = sut.sayHelloWorld()
+        XCTAssertEqual(helloworld, "Hello World")
+    }
+
 
     //MARK: Test Helpers
     func randomAlphaNumericString(length: Int = 10) -> String {

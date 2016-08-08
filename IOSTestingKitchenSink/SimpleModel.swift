@@ -17,11 +17,16 @@ class SimpleModel {
         
         return true
     }
-    
+   
     func simpleStringLenth(stringToTest:String) -> Int {
         
         let stringLength = stringToTest.characters.count
         return stringLength
+    }
+    
+    func sayHelloWorld() -> String {
+        
+        return "Hello World"
     }
 
     

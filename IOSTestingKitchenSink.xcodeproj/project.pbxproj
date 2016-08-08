@@ -66,7 +66,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A14EB9261BC9B42700117FD8 /* Common */ = {
+		A14EB9261BC9B42700117FD8 /* Shared Files */ = {
 			isa = PBXGroup;
 			children = (
 				A14FE94B1B9E3F2300017C92 /* Main.storyboard */,
@@ -74,7 +74,7 @@
 				A14FE94E1B9E3F2300017C92 /* Images.xcassets */,
 				A14FE9671B9E3F8100017C92 /* LessonsConstants.swift */,
 			);
-			name = Common;
+			name = "Shared Files";
 			sourceTree = "<group>";
 		};
 		A14EB9291BC9B89500117FD8 /* Lesson0: HelloWorld */ = {
@@ -139,7 +139,7 @@
 		A14FE9441B9E3F2300017C92 /* IOSTestingKitchenSink */ = {
 			isa = PBXGroup;
 			children = (
-				A14EB9261BC9B42700117FD8 /* Common */,
+				A14EB9261BC9B42700117FD8 /* Shared Files */,
 				A14FE9691B9E473800017C92 /* GettingStarted */,
 				A14FE9471B9E3F2300017C92 /* AppDelegate.swift */,
 				A14FE9501B9E3F2300017C92 /* LaunchScreen.xib */,
